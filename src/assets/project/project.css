@@ -1,0 +1,29 @@
+section {
+  margin-top: 50px;
+}
+section > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+}
+section > h2 {
+  margin-bottom: 20px;
+}
+div.project {
+  padding: 20px;
+  box-shadow: 0 0 50px #23283e;
+}
+.project p {
+  width: 90%;
+}
+h3 {
+  color: #cdcdff;
+  margin-bottom: 10px;
+}
+.project a {
+  display: inline-block;
+  text-decoration: none;
+  color: #90a0d9;
+  font-family: "poppinsb";
+  margin: 10px;
+}

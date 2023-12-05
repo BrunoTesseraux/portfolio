@@ -1,0 +1,12 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav a {
+  color: #90a0d9;
+  text-decoration: none;
+}
+ul a {
+  color: #bdbddd;
+  margin-left: 10px;
+}

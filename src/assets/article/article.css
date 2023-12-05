@@ -1,0 +1,21 @@
+h1 {
+  font-size: 3rem;
+  color: #90a0d9;
+  font-family: "poppinsb";
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+span {
+  color: #cdcdff;
+}
+button {
+  color: #90a0d9;
+  font-size: 1rem;
+  padding: 10px;
+  border: 2px solid #90a0d9;
+  background-color: #23283e;
+  margin-top: 20px;
+}
+article p {
+  margin-top: 20px;
+}
