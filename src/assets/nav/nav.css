@@ -1,6 +1,8 @@
 nav {
+  padding-inline: 20px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 nav a {
   color: #90a0d9;
@@ -8,5 +10,5 @@ nav a {
 }
 ul a {
   color: #bdbddd;
-  margin-left: 10px;
+  margin-inline: 10px;
 }

@@ -8,7 +8,7 @@ import Contact from "./assets/contact/contact";
 import Footer from "./assets/footer/footer";
 
 function App() {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true);
 
   const toggleDarkMode = () => {
     setIsDarkMode(!isDarkMode);

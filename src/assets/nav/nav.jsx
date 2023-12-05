@@ -1,14 +1,18 @@
+import Mond from "../mond";
+import Sonne from "../sonne";
 import "./nav.css";
 
-const Nav = ({ toggleDarkMode }) => {
+const Nav = ({ toggleDarkMode, isDarkMode }) => {
   return (
     <nav>
       <a href="">JS.</a>
       <ul>
-        <button onClick={toggleDarkMode}>Toggle Dark Mode</button>
         <a href="">projects</a>
         <a href="">skills</a>
         <a href="">contact</a>
+        <div onClick={toggleDarkMode} style={{ cursor: "pointer" }}>
+          {isDarkMode ? <Mond /> : <Sonne />}
+        </div>
       </ul>
     </nav>
   );
